@@ -23,5 +23,6 @@ program SolarSystem
     earth%name = "Earth"
     
     print '(A,F20.1,A,F20.1,A)',"position of Earth=(", earth%posi%x, ",", earth%posi%y, ")"
+    read*
 
 end program SolarSystem
